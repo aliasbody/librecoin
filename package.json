@@ -1,0 +1,29 @@
+{
+  "name": "librecoin",
+  "version": "1.0.0",
+  "description": "Cryptocurrency automated trader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Luis Da Costa",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/webhook": "^5.0.3",
+    "bufferutil": "^4.0.1",
+    "coinbase-pro-node": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "google-finance": "^0.1.12",
+    "nano": "^8.2.2",
+    "nedb": "^1.8.0",
+    "utf-8-validate": "^5.0.2",
+    "ws": "^7.2.3",
+    "yahoo-finance": "^0.3.6"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.1",
+    "utf-8-validate": "^5.0.2"
+  },
+  "devDependencies": {}
+}
